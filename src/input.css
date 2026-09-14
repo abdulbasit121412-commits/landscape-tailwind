@@ -1,21 +1,2 @@
 @import "tailwindcss";
 
-/* We can also extend tailwind css by make own font color and so own */
-
-@theme{
-    --color-primary:rgb(0, 123, 255,);
-    --text-heading:40px;
-    
-}
-@font-face {
-    font-family: font1;
-    src: url(fonts/Ocean\ Delight.ttf);
-}
-@font-face {
-    font-family: font-2;
-    src: url(fonts/Santa\ Natale\ PERSONAL\ USE\ ONLY!.ttf);
-}
-@font-face {
-    font-family: font-3;
-    src: url(fonts/KarenaSerif-Extralight.otf);
-}
